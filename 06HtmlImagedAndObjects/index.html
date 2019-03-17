@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Hello HTML</title>
+    <meta name="Author" content="Marcelo Barsotti" />
+    <meta name="Description" content="Sample for HTML course" />
+    <meta name="keywords" content="Pluralsight, Sample, HTML" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>HTML Fundamentals</h1>
+    <object
+      data="data:application/x-silverlight-2,"
+      type="application/x-silverlight-2"
+      width="50%"
+      height="50%"
+    >
+      <param name="source" value="../apps/SliverlightObjectDemo.xap" />
+      <param
+        name="inintParams"
+        value="TextMessage=Do not use marquees on your page."
+      />
+      <span>It does not seem Silverlight is enabled in your browser.</span>
+    </object>
+    <h2>Overview</h2>
+    <div id="overviewContainer">
+      <span
+        >See the section on <a href="#terminology">terminology</a> for
+        definitions of terms used. </span
+      ><span>Check also the <a href="#examples">examples</a> section.</span>
+      <p>
+        <span id="htmlTag" class="highlight"
+          ><abbr title="Hypertext Markup Language">HTML</abbr> drives the
+          web.</span
+        >
+        Whether you use <abbr title="Internet Explorer">IE</abbr>, Chrome,
+        Firefox, Safari, or some other browser, many of us use the web daily. In
+        this&nbsp;course you will learn the fundamental elements of creating web
+        pages using HTML.
+      </p>
+      <p>
+        Not covered in this course is detailed information about
+        <abbr title="Cascading Style Sheets">CSS</abbr>, javascript, or
+        <abbr title="Hypertext Transfer Protocol">HTTP</abbr> as those topics ar
+        covered in detail in other Pluralsight courses
+        <sup>
+          <a
+            href="http://www.pluralsight-training.net/microsoft/courses/TableOfContents?coursename=css-intro"
+            >1</a
+          >,<a
+            href="http://www.pluralsight-training.net/microsoft/courses/TableOfContents?coursename=http-fund"
+            >2</a
+          > </sup
+        >.
+      </p>
+      <h3>Objectives</h3>
+      <ul class="square">
+        <li>Explain thye fundamental concepts of HTML</li>
+        <li>
+          Have fun
+          <ul class="circle">
+            <li>Creating documents</li>
+            <li>Creating memories</li>
+          </ul>
+        </li>
+        <li>Mark it up!</li>
+      </ul>
+      <h3>Outline</h3>
+      <ol class="upper-roman">
+        <li>Introduction</li>
+        <li><a href="./content/text.html#deeplink">Text elements</a></li>
+        <li>
+          <a href="./content/lists.html">Lists</a>
+          <ol start="5" class="roman">
+            <li>Unordered Lists</li>
+            <li value="10">Ordered Lists</li>
+            <li>Definition Lists</li>
+          </ol>
+        </li>
+        <li>Links</li>
+      </ol>
+    </div>
+    <div id="instructorOverview" class="rightNav">
+      <h3>Instructor</h3>
+      Marcelo Barsotti <br />
+      <img
+        src="..\images\mbarsott.jpeg"
+        alt="Marcelo Barsotti"
+        height="93px"
+        width="93px"
+      />
+    </div>
+    <div id="mainContent">
+      <h2>A little history</h2>
+      <cite>Tim Berners Lee</cite> is credited with creating the world wide web
+      and HTML.
+      <blockquote cite="http://www.w3.org/Markup/draft-ieft-iiir-html-01.txt">
+        The World Wide Web (W3) initiative links related information throughout
+        the globe. HTML provides one simple format for providing linked
+        information, and all W3 compatible programs are required to be capable
+        of handling HTML. W3 uses an Internet Protocol (Hypertext Transfer
+        PRotocol, HTTP), which allows transfer representations to be negotiated
+        between client and server, the result beign returned in an extented MIME
+        message. HTML is therefore just one, but an important one, of the
+        representations used with W3.
+      </blockquote>
+      <br />
+      <a name="terminology" title="Technical terms">
+        <h2>Terminology</h2>
+      </a>
+      <dl>
+        <dt>HTML</dt>
+        <dd>
+          HyperText Markup Language is the language used to author web pages
+        </dd>
+        <dt>HTTP</dt>
+        <dd>
+          HyperText Transfer Protocol is the network protocol used to request
+          and sent content over the Web
+        </dd>
+      </dl>
+    </div>
+    <h2 id="examples">Examples</h2>
+    <div id="examplesContainer">
+      <h3>Whitespace</h3>
+      <hr />
+      <pre>
+        This is a haiku
+   A boring haiku for you
+        This is a haiku
+      </pre>
+      <hr />
+      <span>first span</span>
+      <br />
+      <span>second span</span>
+      <hr />
+      <div>this is how you write a &lt;div&gt;</div>
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+  </body>
+</html>
